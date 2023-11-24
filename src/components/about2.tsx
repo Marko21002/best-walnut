@@ -36,7 +36,7 @@ export const About2 = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={controls}
-      className="about2-container"
+      className="about2-container bg-[#447C55]"
     >
       <img src="./about2.png" alt="" />
     </motion.div>

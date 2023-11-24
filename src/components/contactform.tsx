@@ -11,6 +11,7 @@ export default function ContactForm() {
   const [phone, setPhone] = useState("");
 
   const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
     await sendmail(name, email, phone);
 
     setEmail("");

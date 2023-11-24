@@ -16,7 +16,6 @@ export default function Home() {
       <About />
       <About2 />
       <Tablet />
-      <Table2></Table2>
       <ContactForm></ContactForm>
       <Footer></Footer>
     </div>

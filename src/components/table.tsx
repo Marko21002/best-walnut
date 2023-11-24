@@ -11,7 +11,7 @@ const Tablet = () => {
 
   return (
     <section className="py-16" id="pricing">
-      <div className="container mx-auto  pb-24">
+      <div className="container mx-auto  pb-24 ">
         <h2 className="text-3xl font-serif  mb-8 pt-28 text-center">Pricing</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -30,7 +30,7 @@ const Tablet = () => {
               </thead>
               <tbody>
                 {priceRanges.map(({ range, price }) => (
-                  <tr key={range} className="border-b border-black">
+                  <tr key={range} className="border-2 border-black">
                     <td className="py-2 px-4 text-center">{range}</td>
                     <td className="py-2 px-4 text-center">{price}</td>
                   </tr>
