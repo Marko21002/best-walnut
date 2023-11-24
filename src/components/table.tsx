@@ -5,14 +5,14 @@ const Tablet = () => {
     { range: "50-100 kg", price: "4.10$ per kilo" },
     { range: "100-200 kg", price: "3.90$ per kilo" },
     { range: "200-300 kg", price: "3.75$ per kilo" },
-    { range: "300-500 kg", price: "3.65$ per kilo" },
+    { range: "300-500 kg", price: "3.65$ per kilo + 39.60$ delivery" },
     // Add more ranges as needed
   ];
 
   return (
-    <section className=" py-16" id="pricing">
-      <div className="container mx-auto">
-        <h2 className="text-3xl font-serif  mb-8 text-center">Pricing</h2>
+    <section className="py-16" id="pricing">
+      <div className="container mx-auto  pb-24">
+        <h2 className="text-3xl font-serif  mb-8 pt-28 text-center">Pricing</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Display the pricing table */}

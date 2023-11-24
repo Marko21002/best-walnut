@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Slogan = () => {
   return (
-    <div className="border-b-2 bg-[url('/oreh5.jpg')] bg-cover bg-center flex flex-col items-center">
+    <div className="border-b-2 bg-[url('/oreh5.jpg')] bg-cover bg-center flex flex-col items-center h-[550px]">
       <div className="text-center font-serif font-thin text-[40px] pt-24 text-white">
         We sell Best Walnuts <br />
         for small and huge wholesale!!
